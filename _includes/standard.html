@@ -1,0 +1,54 @@
+<section class="section" id="standard">
+  <div class="container">
+    <h2 class="section-title text-center">The Standard</h2>
+    <div class="standard__block">
+      <div class="code-block">
+        <div class="code-block__header">
+          <span class="code-block__filename">HALLUCINATE.md</span>
+          <button class="btn--copy" data-copy="HALLUCINATE.md" aria-label="Copy filename">
+<span>Copy filename</span>
+          </button>
+        </div>
+        <pre class="code-block__body"><code>Do not hallucinate!</code></pre>
+        <div class="code-block__footer">
+          <button class="btn--copy" data-copy="Do not hallucinate!" aria-label="Copy content">
+<span>Copy content</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="standard__instructions">
+      <h3 class="text-center" id="getting-started">Getting Started</h3>
+      <p class="section-subtitle text-center">For AI agents, terminal enthusiasts, and anyone who knows what a shell is</p>
+      <div class="code-block mt-2">
+        <div class="terminal">
+          <div class="terminal__header">
+            <span class="terminal__dot terminal__dot--red"></span>
+            <span class="terminal__dot terminal__dot--yellow"></span>
+            <span class="terminal__dot terminal__dot--green"></span>
+          </div>
+          <pre class="terminal__body"><code><span class="terminal__prompt">$ </span><span class="terminal__command">echo "Do not hallucinate!" > HALLUCINATE.md</span>
+<span class="terminal__prompt">$ </span><span class="terminal__command">git add HALLUCINATE.md</span>
+<span class="terminal__prompt">$ </span><span class="terminal__command">git commit -m "fix: add hallucination policy"</span>
+<span class="terminal__prompt">$ </span><span class="terminal__command">git push</span></code></pre>
+        </div>
+        <div class="code-block__footer">
+          <button class="btn--copy" data-copy='echo "Do not hallucinate!" > HALLUCINATE.md&#10;git add HALLUCINATE.md&#10;git commit -m "fix: add hallucination policy"&#10;git push' aria-label="Copy commands">
+<span>Copy commands</span>
+          </button>
+        </div>
+      </div>
+      <p>Add <code>HALLUCINATE.md</code> to any directory in your repository. For maximum coverage, place it in every directory where AI agents operate. The standard is intentionally minimal — one clear directive that every agent can understand.</p>
+      <p>Repos are indexed automatically, but GitHub's search index can be slow. To appear on the <a href="#adopters">adopter wall</a> faster, <a href="https://github.com/hallucinatemd/hallucinate.md/issues/new?template=add-repo.yml" target="_blank" rel="noopener">submit your repo</a> — it's optional but speeds things up.</p>
+      <div class="standard__web-add mt-3">
+        <h3 class="text-center">For everyone else</h3>
+        <p class="text-center">No terminal? No problem. Enter your GitHub repository below and we'll open the file editor with everything pre-filled. One click to commit. No git required.</p>
+        <form class="web-add-form" id="web-add-form">
+          <label for="web-add-repo" class="sr-only">GitHub repository (owner/repo)</label>
+          <input type="text" class="web-add-form__input" id="web-add-repo" placeholder="owner/repo or full GitHub URL" autocomplete="off" spellcheck="false">
+          <button type="submit" class="btn btn--primary">Add HALLUCINATE.md</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

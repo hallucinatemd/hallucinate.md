@@ -1,0 +1,33 @@
+<section class="hero" id="hero">
+  <div class="container">
+    <h1 class="hero__title">HALLUCINATE.md</h1>
+    <p class="hero__subtitle">The open standard for telling AI not to hallucinate</p>
+    {% if site.data.adopters.size > 0 %}
+    <p class="hero__adopter-count">Adopted by <strong data-count-up="{{ site.data.adopters | size }}">0</strong> open-source projects</p>
+    {% endif %}
+    <div class="hero__terminal">
+      <div class="code-block">
+        <div class="terminal">
+          <div class="terminal__header">
+            <span class="terminal__dot terminal__dot--red"></span>
+            <span class="terminal__dot terminal__dot--yellow"></span>
+            <span class="terminal__dot terminal__dot--green"></span>
+          </div>
+          <pre class="terminal__body"><code><span class="terminal__prompt">$ </span><span class="terminal__command">echo "Do not hallucinate!" > HALLUCINATE.md</span>
+<span class="terminal__prompt">$ </span><span class="terminal__command">git add HALLUCINATE.md</span>
+<span class="terminal__prompt">$ </span><span class="terminal__command">git commit -m "fix: add hallucination policy"</span>
+<span class="terminal__prompt">$ </span><span class="terminal__command">git push</span></code></pre>
+        </div>
+        <div class="code-block__footer">
+          <button class="btn--copy" data-copy='echo "Do not hallucinate!" > HALLUCINATE.md&#10;git add HALLUCINATE.md&#10;git commit -m "fix: add hallucination policy"&#10;git push' aria-label="Copy commands">
+            <span>Copy commands</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hero__ctas">
+      <a href="#standard" class="btn btn--primary">Add to your repo</a>
+      <a href="#adopters" class="btn btn--secondary">See who's adopted it</a>
+    </div>
+  </div>
+</section>

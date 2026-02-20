@@ -1,0 +1,98 @@
+[
+  {
+    "owner": "inclusivenaming",
+    "repo": "website",
+    "full_name": "inclusivenaming/website",
+    "description": "Website for the Inclusive Naming Initiative",
+    "stars": 28,
+    "language": "HTML",
+    "avatar": "https://avatars.githubusercontent.com/u/72278492?v=4",
+    "url": "https://github.com/inclusivenaming/website",
+    "file_url": "https://github.com/inclusivenaming/website/blob/main/content/word-lists/tier-3/hallucinate.md",
+    "file_path": "content/word-lists/tier-3/hallucinate.md"
+  },
+  {
+    "owner": "tnotesjs",
+    "repo": "TNotes.en-words",
+    "full_name": "tnotesjs/TNotes.en-words",
+    "description": "📒 英语词库",
+    "stars": 2,
+    "language": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/225715531?v=4",
+    "url": "https://github.com/tnotesjs/TNotes.en-words",
+    "file_url": "https://github.com/tnotesjs/TNotes.en-words/blob/main/hallucinate.md",
+    "file_path": "hallucinate.md"
+  },
+  {
+    "owner": "jaeminSon",
+    "repo": "jaeminSon.github.io",
+    "full_name": "jaeminSon/jaeminSon.github.io",
+    "description": "Log of one man on earth",
+    "stars": 1,
+    "language": "SCSS",
+    "avatar": "https://avatars.githubusercontent.com/u/8290383?v=4",
+    "url": "https://github.com/jaeminSon/jaeminSon.github.io",
+    "file_url": "https://github.com/jaeminSon/jaeminSon.github.io/blob/main/docs/Language Model/Analysis/hallucinate.md",
+    "file_path": "docs/Language Model/Analysis/hallucinate.md"
+  },
+  {
+    "owner": "haoye11",
+    "repo": "sikao",
+    "full_name": "haoye11/sikao",
+    "description": "",
+    "stars": 1,
+    "language": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/111723832?v=4",
+    "url": "https://github.com/haoye11/sikao",
+    "file_url": "https://github.com/haoye11/sikao/blob/main2.6/001_knowledge/外刊/单词/hallucinate.md",
+    "file_path": "001_knowledge/外刊/单词/hallucinate.md"
+  },
+  {
+    "owner": "mbender-ms",
+    "repo": "mslearn-authoring-mcp-server",
+    "full_name": "mbender-ms/mslearn-authoring-mcp-server",
+    "description": "Repo for work on MCP server project for MS Learn",
+    "stars": 1,
+    "language": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/102542398?v=4",
+    "url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server",
+    "file_url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server/blob/main/microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
+    "file_path": "microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md"
+  },
+  {
+    "owner": "ifSomeday",
+    "repo": "SealBlogPosts",
+    "full_name": "ifSomeday/SealBlogPosts",
+    "description": "",
+    "stars": 0,
+    "language": "",
+    "avatar": "https://avatars.githubusercontent.com/u/11580191?v=4",
+    "url": "https://github.com/ifSomeday/SealBlogPosts",
+    "file_url": "https://github.com/ifSomeday/SealBlogPosts/blob/master/emojidex/Hallucinate.md",
+    "file_path": "emojidex/Hallucinate.md"
+  },
+  {
+    "owner": "feizhao19",
+    "repo": "feizhao19.github.io",
+    "full_name": "feizhao19/feizhao19.github.io",
+    "description": "",
+    "stars": 0,
+    "language": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/79051280?v=4",
+    "url": "https://github.com/feizhao19/feizhao19.github.io",
+    "file_url": "https://github.com/feizhao19/feizhao19.github.io/blob/master/_publications/hallucinate.md",
+    "file_path": "_publications/hallucinate.md"
+  },
+  {
+    "owner": "hallucinatemd",
+    "repo": "hallucinate.md",
+    "full_name": "hallucinatemd/hallucinate.md",
+    "description": "The open standard for telling AI not to hallucinate.",
+    "stars": 0,
+    "language": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/262533459?v=4",
+    "url": "https://github.com/hallucinatemd/hallucinate.md",
+    "file_url": "https://github.com/hallucinatemd/hallucinate.md/blob/main/HALLUCINATE.md",
+    "file_path": "HALLUCINATE.md"
+  }
+]

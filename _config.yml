@@ -1,0 +1,18 @@
+title: "HALLUCINATE.md"
+description: "The open standard for telling AI not to hallucinate"
+url: "https://HALLUCINATE.md"
+baseurl: ""
+
+markdown: kramdown
+sass:
+  style: compressed
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - PLAN.md
+  - vendor
+  - node_modules

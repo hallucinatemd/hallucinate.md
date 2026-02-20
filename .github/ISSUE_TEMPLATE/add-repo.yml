@@ -1,0 +1,18 @@
+name: Add my repository
+description: Get your repo on the HALLUCINATE.md adopter wall
+title: "owner/repo"
+labels: ["add-repo"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Replace the title above** with your repository (e.g. `hallucinatemd/hallucinate.md`) or the full URL to your HALLUCINATE.md file (e.g. `https://github.com/hallucinatemd/hallucinate.md/blob/main/HALLUCINATE.md`).
+
+        The scanner runs hourly. It will verify that your HALLUCINATE.md file exists and add your repo to the [adopter wall](https://HALLUCINATE.md/#adopters) automatically. Repos are indexed via GitHub Code Search too, but the index can be slow for new repos. This issue fast-tracks your listing.
+  - type: textarea
+    id: comment
+    attributes:
+      label: Anything else?
+      description: "Optional — say hi, share feedback, or tell us how you use HALLUCINATE.md."
+    validations:
+      required: false

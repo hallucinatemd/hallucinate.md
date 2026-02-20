@@ -1,0 +1,47 @@
+<section class="section" id="adopters">
+  <div class="container">
+    {% if site.data.adopters.size > 0 %}
+    <h2 class="section-title text-center">Adopted by <span data-count-up="{{ site.data.adopters | size }}">0</span> open-source projects</h2>
+    <div class="adopters__grid" id="adopters-grid">
+      {% for adopter in site.data.adopters %}
+      <div class="adopter-item" data-index="{{ forloop.index0 }}">
+        <a href="{{ adopter.url | escape }}" class="adopter-card" target="_blank" rel="noopener">
+          <img src="{{ adopter.avatar | escape }}" alt="{{ adopter.owner }}" class="adopter-card__avatar" width="40" height="40" loading="lazy">
+          <div class="adopter-card__body">
+            <div class="adopter-card__header">
+              <div class="adopter-card__name"><span class="owner">{{ adopter.owner }}/</span>{{ adopter.repo }}</div>
+              <span class="adopter-card__stars">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
+                </svg>
+                {{ adopter.stars | escape }}
+              </span>
+            </div>
+            <div class="adopter-card__desc">{{ adopter.description }}</div>
+            <div class="adopter-card__lang">{{ adopter.language }}</div>
+          </div>
+        </a>
+        {% if adopter.file_url %}
+        <a href="{{ adopter.file_url | escape }}" class="adopter-card__proof" target="_blank" rel="noopener">HALLUCINATE.md</a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% if site.data.adopters.size > 15 %}
+    <nav class="pager" id="adopters-pager" aria-label="Adopter list pagination"></nav>
+    {% endif %}
+    {% else %}
+    <h2 class="section-title text-center">Adoption</h2>
+    <div class="adopters__empty">
+      <p>Be the first to adopt the standard.</p>
+    </div>
+    {% endif %}
+    <p class="adopters__search-link text-center mt-3">
+      <a href="https://github.com/search?q=path%3A%2F(%5E%7C%5C%2F)HALLUCINATE%5C.md%24%2F&type=code" target="_blank" rel="noopener">View all repositories with <code>HALLUCINATE.md</code> on GitHub</a>
+    </p>
+    <p class="text-center mt-2" style="font-size: 1.5rem"><strong><em>…and counting!</em></strong></p>
+    <p class="adopters__submit-hint text-center mt-2">
+      Added the file but not listed yet? GitHub indexing can be slow. <a href="https://github.com/hallucinatemd/hallucinate.md/issues/new?template=add-repo.yml" target="_blank" rel="noopener">Submit your repo</a> for faster visibility.
+    </p>
+  </div>
+</section>
