@@ -60,6 +60,18 @@
     "file_path": "microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md"
   },
   {
+    "owner": "hallucinatemd",
+    "repo": "hallucinate.md",
+    "full_name": "hallucinatemd/hallucinate.md",
+    "description": "The open standard for telling AI not to hallucinate.",
+    "stars": 1,
+    "language": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/262533459?v=4",
+    "url": "https://github.com/hallucinatemd/hallucinate.md",
+    "file_url": "https://github.com/hallucinatemd/hallucinate.md/blob/main/HALLUCINATE.md",
+    "file_path": "HALLUCINATE.md"
+  },
+  {
     "owner": "ifSomeday",
     "repo": "SealBlogPosts",
     "full_name": "ifSomeday/SealBlogPosts",
@@ -82,17 +94,5 @@
     "url": "https://github.com/feizhao19/feizhao19.github.io",
     "file_url": "https://github.com/feizhao19/feizhao19.github.io/blob/master/_publications/hallucinate.md",
     "file_path": "_publications/hallucinate.md"
-  },
-  {
-    "owner": "hallucinatemd",
-    "repo": "hallucinate.md",
-    "full_name": "hallucinatemd/hallucinate.md",
-    "description": "The open standard for telling AI not to hallucinate.",
-    "stars": 0,
-    "language": "JavaScript",
-    "avatar": "https://avatars.githubusercontent.com/u/262533459?v=4",
-    "url": "https://github.com/hallucinatemd/hallucinate.md",
-    "file_url": "https://github.com/hallucinatemd/hallucinate.md/blob/main/HALLUCINATE.md",
-    "file_path": "HALLUCINATE.md"
   }
 ]
