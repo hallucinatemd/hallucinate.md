@@ -3,7 +3,7 @@
     <h1 class="hero__title">HALLUCINATE.md</h1>
     <p class="hero__subtitle">The open standard for telling AI not to hallucinate</p>
     {% if site.data.adopters.size > 0 %}
-    <p class="hero__adopter-count">Adopted by <strong data-count-up="{{ site.data.adopters | size }}">0</strong> open-source projects</p>
+    <p class="hero__adopter-count">Adopted by <strong data-count-up="{{ site.data.adopters | size }}">{{ site.data.adopters | size }}</strong> open-source projects</p>
     {% endif %}
     <div class="hero__terminal">
       <div class="code-block">

@@ -1,7 +1,7 @@
 <section class="section" id="adopters">
   <div class="container">
     {% if site.data.adopters.size > 0 %}
-    <h2 class="section-title text-center">Adopted by <span data-count-up="{{ site.data.adopters | size }}">0</span> open-source projects</h2>
+    <h2 class="section-title text-center">Adopted by <span data-count-up="{{ site.data.adopters | size }}">{{ site.data.adopters | size }}</span> open-source projects</h2>
     <div class="adopters__grid" id="adopters-grid">
       {% for adopter in site.data.adopters %}
       <div class="adopter-item" data-index="{{ forloop.index0 }}">
