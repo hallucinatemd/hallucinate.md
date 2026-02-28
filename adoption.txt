@@ -1,9 +1,4 @@
----
-layout: null
-permalink: /adoption.txt
----
-{% assign count = site.data.adopters | size %}count: {{ count }}
-{% assign sorted = site.data.adopters | sort: "date_added" | reverse %}
-newest adopters (most recent first):
-{% for adopter in sorted limit: 20 %}- {{ adopter.full_name }} ({{ adopter.stars }}★, added {{ adopter.date_added }})
-{% endfor %}
+count: 8
+yesterday: 2026-02-27
+new_yesterday: 0
+celebrate:
