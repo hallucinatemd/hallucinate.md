@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { writeFileSync, readFileSync, mkdirSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { sanitizeAdopters } from "./sanitize.mjs";
@@ -394,17 +394,37 @@ async function main() {
   // ── 6. Sanitize ──────────────────────────────────────────────────────
   const sanitized = sanitizeAdopters(adopters);
 
-  // ── 7. Sort by stars descending ──────────────────────────────────────
+  // ── 7. Preserve date_added from existing data ───────────────────────
+  const today = new Date().toISOString().slice(0, 10);
+  const existingDates = new Map();
+  if (existsSync(OUTPUT)) {
+    try {
+      const existing = JSON.parse(readFileSync(OUTPUT, "utf-8"));
+      for (const entry of existing) {
+        if (entry.full_name && entry.date_added) {
+          existingDates.set(entry.full_name, entry.date_added);
+        }
+      }
+    } catch { /* first run or corrupt file — all entries get today */ }
+  }
+  let newCount = 0;
+  for (const entry of sanitized) {
+    entry.date_added = existingDates.get(entry.full_name) ?? today;
+    if (!existingDates.has(entry.full_name)) newCount++;
+  }
+  if (newCount > 0) console.log(`New adopters: ${newCount} (date_added = ${today})`);
+
+  // ── 8. Sort by stars descending ──────────────────────────────────────
   sanitized.sort((a, b) => b.stars - a.stars);
 
-  // ── 8. Write output ──────────────────────────────────────────────────
+  // ── 9. Write output ──────────────────────────────────────────────────
   ensureDataDir();
   writeFileSync(OUTPUT, JSON.stringify(sanitized, null, 2) + "\n");
 
-  // ── 9. Summary ───────────────────────────────────────────────────────
+  // ── 10. Summary ───────────────────────────────────────────────────────
   console.log(`Wrote ${sanitized.length} adopters to _data/adopters.json`);
 
-  // ── 10. Housekeep issues (after wall is updated) ──────────────────
+  // ── 11. Housekeep issues (after wall is updated) ──────────────────
   await processIssueActions(issueActions);
 }
 
