@@ -34,6 +34,29 @@ export function filterNewAdopters(adopters, dateStr) {
 }
 
 /**
+ * Assign each adopter a UTC hour for celebration.
+ * Distributes evenly across 08:00–20:00 UTC.
+ *
+ * @param {Array<{full_name: string, stars: number}>} adopters - sorted by stars desc
+ * @returns {Array<{full_name: string, stars: number, hour: number}>}
+ */
+export const CELEBRATE_WINDOW_START = 8;
+export const CELEBRATE_WINDOW_END = 20;
+
+export function assignCelebrationHours(adopters) {
+  if (!Array.isArray(adopters) || adopters.length === 0) return [];
+
+  const windowSize = CELEBRATE_WINDOW_END - CELEBRATE_WINDOW_START;
+  const step = windowSize / adopters.length;
+
+  return adopters.map((a, i) => ({
+    full_name: a.full_name,
+    stars: a.stars,
+    hour: CELEBRATE_WINDOW_START + Math.floor(step * (i + 0.5)),
+  }));
+}
+
+/**
  * Format the adoption.txt output string.
  *
  * Output:
@@ -41,22 +64,24 @@ export function filterNewAdopters(adopters, dateStr) {
  *   yesterday: 2026-02-27
  *   new_yesterday: 2
  *   celebrate:
- *   - owner/repoA (5★)
- *   - owner/repoB (3★)
+ *   - 11 owner/repoA (10★)
+ *   - 17 owner/repoB (5★)
  */
 export function formatAdoptionTxt(adopters, yesterday) {
   const total = Array.isArray(adopters) ? adopters.length : 0;
   const newYesterday = filterNewAdopters(adopters, yesterday);
+  const scheduled = assignCelebrationHours(newYesterday);
 
   const lines = [
     `count: ${total}`,
     `yesterday: ${yesterday}`,
-    `new_yesterday: ${newYesterday.length}`,
+    `new_yesterday: ${scheduled.length}`,
     "celebrate:",
   ];
 
-  for (const a of newYesterday) {
-    lines.push(`- ${a.full_name} (${a.stars}★)`);
+  for (const a of scheduled) {
+    const hh = String(a.hour).padStart(2, "0");
+    lines.push(`- ${hh} ${a.full_name} (${a.stars}★)`);
   }
 
   return lines.join("\n") + "\n";

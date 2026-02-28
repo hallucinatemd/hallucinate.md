@@ -4,6 +4,9 @@ import assert from "node:assert/strict";
 import {
   getYesterdayUTC,
   filterNewAdopters,
+  assignCelebrationHours,
+  CELEBRATE_WINDOW_START,
+  CELEBRATE_WINDOW_END,
   formatAdoptionTxt,
 } from "../scripts/generate-adoption-txt.mjs";
 
@@ -149,10 +152,104 @@ describe("filterNewAdopters", () => {
   });
 });
 
+// ─── assignCelebrationHours ──────────────────────────────────────────────────
+
+describe("assignCelebrationHours", () => {
+  it("returns empty array for empty input", () => {
+    assert.deepEqual(assignCelebrationHours([]), []);
+  });
+
+  it("returns empty array for null input", () => {
+    assert.deepEqual(assignCelebrationHours(null), []);
+  });
+
+  it("assigns hour 14 for 1 adopter", () => {
+    const result = assignCelebrationHours([
+      { full_name: "a/b", stars: 5 },
+    ]);
+    assert.equal(result.length, 1);
+    assert.equal(result[0].hour, 14);
+    assert.equal(result[0].full_name, "a/b");
+    assert.equal(result[0].stars, 5);
+  });
+
+  it("assigns hours 11 and 17 for 2 adopters", () => {
+    const result = assignCelebrationHours([
+      { full_name: "a/b", stars: 10 },
+      { full_name: "c/d", stars: 5 },
+    ]);
+    assert.deepEqual(
+      result.map((r) => r.hour),
+      [11, 17],
+    );
+  });
+
+  it("assigns hours 10, 14, 18 for 3 adopters", () => {
+    const result = assignCelebrationHours([
+      { full_name: "a/b", stars: 30 },
+      { full_name: "c/d", stars: 20 },
+      { full_name: "e/f", stars: 10 },
+    ]);
+    assert.deepEqual(
+      result.map((r) => r.hour),
+      [10, 14, 18],
+    );
+  });
+
+  it("assigns hours 09, 12, 15, 18 for 4 adopters", () => {
+    const result = assignCelebrationHours([
+      { full_name: "a/a", stars: 40 },
+      { full_name: "b/b", stars: 30 },
+      { full_name: "c/c", stars: 20 },
+      { full_name: "d/d", stars: 10 },
+    ]);
+    assert.deepEqual(
+      result.map((r) => r.hour),
+      [9, 12, 15, 18],
+    );
+  });
+
+  it("assigns one per hour for 12 adopters", () => {
+    const adopters = Array.from({ length: 12 }, (_, i) => ({
+      full_name: `owner/repo${i}`,
+      stars: 12 - i,
+    }));
+    const result = assignCelebrationHours(adopters);
+    const hours = result.map((r) => r.hour);
+    assert.equal(hours.length, 12);
+    // Each hour should be unique when n equals window size
+    assert.equal(new Set(hours).size, 12);
+    // All hours within window
+    assert.ok(hours.every((h) => h >= CELEBRATE_WINDOW_START && h < CELEBRATE_WINDOW_END));
+  });
+
+  it("keeps hours within window for n > 12", () => {
+    const adopters = Array.from({ length: 20 }, (_, i) => ({
+      full_name: `owner/repo${i}`,
+      stars: 20 - i,
+    }));
+    const result = assignCelebrationHours(adopters);
+    assert.equal(result.length, 20);
+    assert.ok(
+      result.every(
+        (r) => r.hour >= CELEBRATE_WINDOW_START && r.hour < CELEBRATE_WINDOW_END,
+      ),
+    );
+  });
+
+  it("preserves full_name and stars", () => {
+    const result = assignCelebrationHours([
+      { full_name: "test/repo", stars: 42 },
+    ]);
+    assert.equal(result[0].full_name, "test/repo");
+    assert.equal(result[0].stars, 42);
+  });
+});
+
 // ─── formatAdoptionTxt ───────────────────────────────────────────────────────
 
 describe("formatAdoptionTxt", () => {
-  it("produces correct output with 2 new adopters", () => {
+  it("produces correct output with 2 new adopters (with hours)", () => {
     const adopters = [
       { full_name: "a/one", stars: 10, date_added: "2026-02-27" },
       { full_name: "b/two", stars: 5, date_added: "2026-02-27" },
@@ -164,8 +261,8 @@ describe("formatAdoptionTxt", () => {
       "yesterday: 2026-02-27",
       "new_yesterday: 2",
       "celebrate:",
-      "- a/one (10★)",
-      "- b/two (5★)",
+      "- 11 a/one (10★)",
+      "- 17 b/two (5★)",
       "",
     ].join("\n");
     assert.equal(result, expected);
@@ -216,7 +313,7 @@ describe("formatAdoptionTxt", () => {
     const result = formatAdoptionTxt(adopters, "2026-02-27");
     assert.ok(result.includes("count: 2"));
     assert.ok(result.includes("new_yesterday: 1"));
-    assert.ok(result.includes("- c/d (3★)"));
+    assert.ok(result.includes("c/d (3★)"));
     assert.ok(!result.includes("a/b"));
   });
 
@@ -226,6 +323,18 @@ describe("formatAdoptionTxt", () => {
     ];
     const result = formatAdoptionTxt(adopters, "2026-02-27");
     assert.ok(result.includes("42★"));
+  });
+
+  it("zero-pads single-digit hours", () => {
+    // 4 adopters → hours 09, 12, 15, 18
+    const adopters = [
+      { full_name: "a/a", stars: 40, date_added: "2026-02-27" },
+      { full_name: "b/b", stars: 30, date_added: "2026-02-27" },
+      { full_name: "c/c", stars: 20, date_added: "2026-02-27" },
+      { full_name: "d/d", stars: 10, date_added: "2026-02-27" },
+    ];
+    const result = formatAdoptionTxt(adopters, "2026-02-27");
+    assert.ok(result.includes("- 09 a/a (40★)"));
   });
 
   it("sorts celebrate list by stars descending", () => {
@@ -238,9 +347,9 @@ describe("formatAdoptionTxt", () => {
     const celebrateLines = result
       .split("\n")
       .filter((l) => l.startsWith("- "));
-    assert.equal(celebrateLines[0], "- b/high (99★)");
-    assert.equal(celebrateLines[1], "- c/mid (10★)");
-    assert.equal(celebrateLines[2], "- a/low (1★)");
+    assert.ok(celebrateLines[0].includes("b/high (99★)"));
+    assert.ok(celebrateLines[1].includes("c/mid (10★)"));
+    assert.ok(celebrateLines[2].includes("a/low (1★)"));
   });
 
   it("handles null adopters array", () => {
