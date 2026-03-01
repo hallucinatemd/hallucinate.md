@@ -1,4 +1,12 @@
 count: 8
-yesterday: 2026-02-27
-new_yesterday: 0
+yesterday: 2026-02-28
+new_yesterday: 8
 celebrate:
+- 08 inclusivenaming/website (28★)
+- 10 tnotesjs/TNotes.en-words (2★)
+- 11 jaeminSon/jaeminSon.github.io (1★)
+- 13 haoye11/sikao (1★)
+- 14 mbender-ms/mslearn-authoring-mcp-server (1★)
+- 16 hallucinatemd/hallucinate.md (1★)
+- 17 ifSomeday/SealBlogPosts (0★)
+- 19 feizhao19/feizhao19.github.io (0★)
