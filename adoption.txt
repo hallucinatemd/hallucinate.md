@@ -1,12 +1,4 @@
-count: 9
-yesterday: 2026-04-09
-new_yesterday: 8
+count: 8
+yesterday: 2026-04-10
+new_yesterday: 0
 celebrate:
-- 08 inclusivenaming/website (28★)
-- 10 tnotesjs/TNotes.en-words (2★)
-- 11 zacharyhofbauer/pearl-algo (1★)
-- 13 jaeminSon/jaeminSon.github.io (1★)
-- 14 mbender-ms/mslearn-authoring-mcp-server (1★)
-- 16 ifSomeday/SealBlogPosts (0★)
-- 17 feizhao19/feizhao19.github.io (0★)
-- 19 GKGgood/GKGgood.github.io (0★)
