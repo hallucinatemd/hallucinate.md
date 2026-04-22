@@ -13,6 +13,19 @@
     "date_added": "2026-04-21"
   },
   {
+    "owner": "seuros",
+    "repo": "chaos",
+    "full_name": "seuros/chaos",
+    "description": "FreeChaOS — free software to command the Agents of ChaOS. (Chat OS, the t is silent.)",
+    "stars": 16,
+    "language": "Rust",
+    "avatar": "https://avatars.githubusercontent.com/u/2394703?v=4",
+    "url": "https://github.com/seuros/chaos",
+    "file_url": "https://github.com/seuros/chaos/blob/master/docs/hallucinate.md",
+    "file_path": "docs/hallucinate.md",
+    "date_added": "2026-04-22"
+  },
+  {
     "owner": "tnotesjs",
     "repo": "TNotes.en-words",
     "full_name": "tnotesjs/TNotes.en-words",
