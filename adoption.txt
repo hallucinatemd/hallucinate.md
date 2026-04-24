@@ -1,5 +1,4 @@
 count: 9
-yesterday: 2026-04-22
-new_yesterday: 1
+yesterday: 2026-04-23
+new_yesterday: 0
 celebrate:
-- 14 seuros/chaos (17★)
