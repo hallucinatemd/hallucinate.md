@@ -26,19 +26,6 @@
     "date_added": "2026-04-22"
   },
   {
-    "owner": "tnotesjs",
-    "repo": "TNotes.en-words",
-    "full_name": "tnotesjs/TNotes.en-words",
-    "description": "📒 英语词库",
-    "stars": 2,
-    "language": "JavaScript",
-    "avatar": "https://avatars.githubusercontent.com/u/225715531?v=4",
-    "url": "https://github.com/tnotesjs/TNotes.en-words",
-    "file_url": "https://github.com/tnotesjs/TNotes.en-words/blob/main/hallucinate.md",
-    "file_path": "hallucinate.md",
-    "date_added": "2026-04-21"
-  },
-  {
     "owner": "hallucinatemd",
     "repo": "hallucinate.md",
     "full_name": "hallucinatemd/hallucinate.md",
@@ -50,6 +37,19 @@
     "file_url": "https://github.com/hallucinatemd/hallucinate.md/blob/main/HALLUCINATE.md",
     "file_path": "HALLUCINATE.md",
     "date_added": "2026-02-28"
+  },
+  {
+    "owner": "tnotesjs",
+    "repo": "TNotes.en-words",
+    "full_name": "tnotesjs/TNotes.en-words",
+    "description": "📒 英语词库",
+    "stars": 2,
+    "language": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/225715531?v=4",
+    "url": "https://github.com/tnotesjs/TNotes.en-words",
+    "file_url": "https://github.com/tnotesjs/TNotes.en-words/blob/main/hallucinate.md",
+    "file_path": "hallucinate.md",
+    "date_added": "2026-04-21"
   },
   {
     "owner": "jaeminSon",
