@@ -1,5 +1,5 @@
 count: 10
-yesterday: 2026-05-12
+yesterday: 2026-05-13
 new_yesterday: 9
 celebrate:
 - 08 inclusivenaming/website (28★)
