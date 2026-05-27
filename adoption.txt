@@ -1,4 +1,12 @@
-count: 1
-yesterday: 2026-05-25
-new_yesterday: 0
+count: 9
+yesterday: 2026-05-26
+new_yesterday: 8
 celebrate:
+- 08 inclusivenaming/website (28★)
+- 10 tnotesjs/TNotes.en-words (4★)
+- 11 jaeminSon/jaeminSon.github.io (1★)
+- 13 mbender-ms/mslearn-authoring-mcp-server (1★)
+- 14 ifSomeday/SealBlogPosts (0★)
+- 16 feizhao19/feizhao19.github.io (0★)
+- 17 GKGgood/GKGgood.github.io (0★)
+- 19 zana-abdi2002/Roget-s-21st-Century-Thesaurus_3rd-Edition (0★)
