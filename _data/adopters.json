@@ -13,6 +13,19 @@
     "date_added": "2026-06-25"
   },
   {
+    "owner": "NeckBeardPrince",
+    "repo": "nes-outage-status-checker",
+    "full_name": "NeckBeardPrince/nes-outage-status-checker",
+    "description": "Checks outage events from nespower.com",
+    "stars": 14,
+    "language": "HCL",
+    "avatar": "https://avatars.githubusercontent.com/u/6558867?v=4",
+    "url": "https://github.com/NeckBeardPrince/nes-outage-status-checker",
+    "file_url": "https://github.com/NeckBeardPrince/nes-outage-status-checker/blob/main/HALLUCINATE.md",
+    "file_path": "HALLUCINATE.md",
+    "date_added": "2026-06-26"
+  },
+  {
     "owner": "tnotesjs",
     "repo": "TNotes.en-words",
     "full_name": "tnotesjs/TNotes.en-words",
@@ -30,13 +43,26 @@
     "repo": "hallucinate.md",
     "full_name": "hallucinatemd/hallucinate.md",
     "description": "The open standard for telling AI not to hallucinate.",
-    "stars": 2,
+    "stars": 5,
     "language": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/262533459?v=4",
     "url": "https://github.com/hallucinatemd/hallucinate.md",
     "file_url": "https://github.com/hallucinatemd/hallucinate.md/blob/main/HALLUCINATE.md",
     "file_path": "HALLUCINATE.md",
     "date_added": "2026-02-28"
+  },
+  {
+    "owner": "NeckBeardPrince",
+    "repo": "howtfdoi",
+    "full_name": "NeckBeardPrince/howtfdoi",
+    "description": "Forget scrolling through Stack Overflow or man pages. Just ask.",
+    "stars": 2,
+    "language": "Go",
+    "avatar": "https://avatars.githubusercontent.com/u/6558867?v=4",
+    "url": "https://github.com/NeckBeardPrince/howtfdoi",
+    "file_url": "https://github.com/NeckBeardPrince/howtfdoi/blob/main/HALLUCINATE.md",
+    "file_path": "HALLUCINATE.md",
+    "date_added": "2026-06-26"
   },
   {
     "owner": "jaeminSon",
@@ -63,6 +89,19 @@
     "file_url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server/blob/main/microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
     "file_path": "microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
     "date_added": "2026-06-25"
+  },
+  {
+    "owner": "NeckBeardPrince",
+    "repo": "codeink",
+    "full_name": "NeckBeardPrince/codeink",
+    "description": "Code that \"inks\" into rich text",
+    "stars": 1,
+    "language": "HTML",
+    "avatar": "https://avatars.githubusercontent.com/u/6558867?v=4",
+    "url": "https://github.com/NeckBeardPrince/codeink",
+    "file_url": "https://github.com/NeckBeardPrince/codeink/blob/main/HALLUCINATE.md",
+    "file_path": "HALLUCINATE.md",
+    "date_added": "2026-06-26"
   },
   {
     "owner": "ifSomeday",
@@ -128,5 +167,18 @@
     "file_url": "https://github.com/zana-abdi2002/Roget-s-21st-Century-Thesaurus_3rd-Edition/blob/master/Vocabulary/hallucinate.md",
     "file_path": "Vocabulary/hallucinate.md",
     "date_added": "2026-06-25"
+  },
+  {
+    "owner": "NeckBeardPrince",
+    "repo": "enigma-machine",
+    "full_name": "NeckBeardPrince/enigma-machine",
+    "description": "",
+    "stars": 0,
+    "language": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/6558867?v=4",
+    "url": "https://github.com/NeckBeardPrince/enigma-machine",
+    "file_url": "https://github.com/NeckBeardPrince/enigma-machine/blob/main/HALLUCINATE.md",
+    "file_path": "HALLUCINATE.md",
+    "date_added": "2026-06-26"
   }
 ]
