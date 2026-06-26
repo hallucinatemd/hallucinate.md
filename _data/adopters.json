@@ -43,7 +43,7 @@
     "repo": "hallucinate.md",
     "full_name": "hallucinatemd/hallucinate.md",
     "description": "The open standard for telling AI not to hallucinate.",
-    "stars": 5,
+    "stars": 6,
     "language": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/262533459?v=4",
     "url": "https://github.com/hallucinatemd/hallucinate.md",
@@ -104,19 +104,6 @@
     "date_added": "2026-06-26"
   },
   {
-    "owner": "ifSomeday",
-    "repo": "SealBlogPosts",
-    "full_name": "ifSomeday/SealBlogPosts",
-    "description": "",
-    "stars": 0,
-    "language": "",
-    "avatar": "https://avatars.githubusercontent.com/u/11580191?v=4",
-    "url": "https://github.com/ifSomeday/SealBlogPosts",
-    "file_url": "https://github.com/ifSomeday/SealBlogPosts/blob/master/emojidex/Hallucinate.md",
-    "file_path": "emojidex/Hallucinate.md",
-    "date_added": "2026-06-25"
-  },
-  {
     "owner": "feizhao19",
     "repo": "feizhao19.github.io",
     "full_name": "feizhao19/feizhao19.github.io",
@@ -153,6 +140,19 @@
     "url": "https://github.com/chrisofspades/chrispeoples.com",
     "file_url": "https://github.com/chrisofspades/chrispeoples.com/blob/main/content/links/hallucinate.md",
     "file_path": "content/links/hallucinate.md",
+    "date_added": "2026-06-25"
+  },
+  {
+    "owner": "ifSomeday",
+    "repo": "SealBlogPosts",
+    "full_name": "ifSomeday/SealBlogPosts",
+    "description": "",
+    "stars": 0,
+    "language": "",
+    "avatar": "https://avatars.githubusercontent.com/u/11580191?v=4",
+    "url": "https://github.com/ifSomeday/SealBlogPosts",
+    "file_url": "https://github.com/ifSomeday/SealBlogPosts/blob/master/emojidex/Hallucinate.md",
+    "file_path": "emojidex/Hallucinate.md",
     "date_added": "2026-06-25"
   },
   {
