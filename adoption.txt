@@ -1,8 +1,4 @@
 count: 14
-yesterday: 2026-06-26
-new_yesterday: 4
+yesterday: 2026-06-27
+new_yesterday: 0
 celebrate:
-- 09 NeckBeardPrince/nes-outage-status-checker (14★)
-- 12 NeckBeardPrince/howtfdoi (2★)
-- 15 NeckBeardPrince/codeink (1★)
-- 18 NeckBeardPrince/enigma-machine (0★)
