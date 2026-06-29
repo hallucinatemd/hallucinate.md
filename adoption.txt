@@ -1,4 +1,4 @@
 count: 14
-yesterday: 2026-06-27
+yesterday: 2026-06-28
 new_yesterday: 0
 celebrate:
