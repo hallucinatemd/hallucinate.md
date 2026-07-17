@@ -78,19 +78,6 @@
     "date_added": "2026-07-17"
   },
   {
-    "owner": "mbender-ms",
-    "repo": "mslearn-authoring-mcp-server",
-    "full_name": "mbender-ms/mslearn-authoring-mcp-server",
-    "description": "Repo for work on MCP server project for MS Learn",
-    "stars": 1,
-    "language": "Python",
-    "avatar": "https://avatars.githubusercontent.com/u/102542398?v=4",
-    "url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server",
-    "file_url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server/blob/main/microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
-    "file_path": "microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
-    "date_added": "2026-07-17"
-  },
-  {
     "owner": "NeckBeardPrince",
     "repo": "codeink",
     "full_name": "NeckBeardPrince/codeink",
@@ -102,6 +89,19 @@
     "file_url": "https://github.com/NeckBeardPrince/codeink/blob/main/HALLUCINATE.md",
     "file_path": "HALLUCINATE.md",
     "date_added": "2026-07-16"
+  },
+  {
+    "owner": "mbender-ms",
+    "repo": "mslearn-authoring-mcp-server",
+    "full_name": "mbender-ms/mslearn-authoring-mcp-server",
+    "description": "Repo for work on MCP server project for MS Learn",
+    "stars": 1,
+    "language": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/102542398?v=4",
+    "url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server",
+    "file_url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server/blob/main/microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
+    "file_path": "microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
+    "date_added": "2026-07-17"
   },
   {
     "owner": "ifSomeday",
