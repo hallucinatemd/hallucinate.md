@@ -1,9 +1,4 @@
 count: 5
-yesterday: 2026-07-16
-new_yesterday: 5
+yesterday: 2026-07-17
+new_yesterday: 0
 celebrate:
-- 09 NeckBeardPrince/nes-outage-status-checker (14★)
-- 11 hallucinatemd/hallucinate.md (7★)
-- 14 NeckBeardPrince/howtfdoi (2★)
-- 16 NeckBeardPrince/codeink (1★)
-- 18 NeckBeardPrince/enigma-machine (0★)
