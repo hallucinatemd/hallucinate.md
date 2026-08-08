@@ -1,9 +1,9 @@
 count: 14
-yesterday: 2026-08-06
+yesterday: 2026-08-07
 new_yesterday: 9
 celebrate:
 - 08 inclusivenaming/website (28★)
-- 10 tnotesjs/TNotes.en-words (7★)
+- 10 tnotesjs/TNotes.en-words (8★)
 - 11 jaeminSon/jaeminSon.github.io (1★)
 - 12 mbender-ms/mslearn-authoring-mcp-server (1★)
 - 14 feizhao19/feizhao19.github.io (0★)
