@@ -26,6 +26,19 @@
     "date_added": "2026-07-16"
   },
   {
+    "owner": "tnotesjs",
+    "repo": "TNotes.en-words",
+    "full_name": "tnotesjs/TNotes.en-words",
+    "description": "📒 英语词库",
+    "stars": 8,
+    "language": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/225715531?v=4",
+    "url": "https://github.com/tnotesjs/TNotes.en-words",
+    "file_url": "https://github.com/tnotesjs/TNotes.en-words/blob/main/hallucinate.md",
+    "file_path": "hallucinate.md",
+    "date_added": "2026-08-25"
+  },
+  {
     "owner": "hallucinatemd",
     "repo": "hallucinate.md",
     "full_name": "hallucinatemd/hallucinate.md",
@@ -52,17 +65,17 @@
     "date_added": "2026-07-16"
   },
   {
-    "owner": "mbender-ms",
-    "repo": "mslearn-authoring-mcp-server",
-    "full_name": "mbender-ms/mslearn-authoring-mcp-server",
-    "description": "Repo for work on MCP server project for MS Learn",
+    "owner": "jaeminSon",
+    "repo": "jaeminSon.github.io",
+    "full_name": "jaeminSon/jaeminSon.github.io",
+    "description": "Log of one man on earth",
     "stars": 1,
-    "language": "Python",
-    "avatar": "https://avatars.githubusercontent.com/u/102542398?v=4",
-    "url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server",
-    "file_url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server/blob/main/microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
-    "file_path": "microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
-    "date_added": "2026-08-24"
+    "language": "SCSS",
+    "avatar": "https://avatars.githubusercontent.com/u/8290383?v=4",
+    "url": "https://github.com/jaeminSon/jaeminSon.github.io",
+    "file_url": "https://github.com/jaeminSon/jaeminSon.github.io/blob/main/docs/Language Model/Analysis/hallucinate.md",
+    "file_path": "docs/Language Model/Analysis/hallucinate.md",
+    "date_added": "2026-08-25"
   },
   {
     "owner": "NeckBeardPrince",
@@ -76,6 +89,19 @@
     "file_url": "https://github.com/NeckBeardPrince/codeink/blob/main/HALLUCINATE.md",
     "file_path": "HALLUCINATE.md",
     "date_added": "2026-07-16"
+  },
+  {
+    "owner": "mbender-ms",
+    "repo": "mslearn-authoring-mcp-server",
+    "full_name": "mbender-ms/mslearn-authoring-mcp-server",
+    "description": "Repo for work on MCP server project for MS Learn",
+    "stars": 1,
+    "language": "Python",
+    "avatar": "https://avatars.githubusercontent.com/u/102542398?v=4",
+    "url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server",
+    "file_url": "https://github.com/mbender-ms/mslearn-authoring-mcp-server/blob/main/microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
+    "file_path": "microsoft-style-guide-pr-FastMCP/product-style-guide-msft-internal/a_z_names_terms/h/hallucinate.md",
+    "date_added": "2026-08-24"
   },
   {
     "owner": "feizhao19",
@@ -117,17 +143,17 @@
     "date_added": "2026-08-24"
   },
   {
-    "owner": "chrisofspades",
-    "repo": "chrispeoples.com",
-    "full_name": "chrisofspades/chrispeoples.com",
-    "description": "My personal website.",
+    "owner": "zana-abdi2002",
+    "repo": "Roget-s-21st-Century-Thesaurus_3rd-Edition",
+    "full_name": "zana-abdi2002/Roget-s-21st-Century-Thesaurus_3rd-Edition",
+    "description": "",
     "stars": 0,
-    "language": "HTML",
-    "avatar": "https://avatars.githubusercontent.com/u/2360609?v=4",
-    "url": "https://github.com/chrisofspades/chrispeoples.com",
-    "file_url": "https://github.com/chrisofspades/chrispeoples.com/blob/main/content/links/hallucinate.md",
-    "file_path": "content/links/hallucinate.md",
-    "date_added": "2026-08-24"
+    "language": "CSS",
+    "avatar": "https://avatars.githubusercontent.com/u/196528623?v=4",
+    "url": "https://github.com/zana-abdi2002/Roget-s-21st-Century-Thesaurus_3rd-Edition",
+    "file_url": "https://github.com/zana-abdi2002/Roget-s-21st-Century-Thesaurus_3rd-Edition/blob/master/Vocabulary/hallucinate.md",
+    "file_path": "Vocabulary/hallucinate.md",
+    "date_added": "2026-08-25"
   },
   {
     "owner": "NeckBeardPrince",
