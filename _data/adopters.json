@@ -27,16 +27,16 @@
   },
   {
     "owner": "tnotesjs",
-    "repo": "TNotes.en-words",
-    "full_name": "tnotesjs/TNotes.en-words",
+    "repo": "en-words",
+    "full_name": "tnotesjs/en-words",
     "description": "📒 英语词库",
     "stars": 8,
     "language": "JavaScript",
     "avatar": "https://avatars.githubusercontent.com/u/225715531?v=4",
-    "url": "https://github.com/tnotesjs/TNotes.en-words",
-    "file_url": "https://github.com/tnotesjs/TNotes.en-words/blob/main/hallucinate.md",
+    "url": "https://github.com/tnotesjs/en-words",
+    "file_url": "https://github.com/tnotesjs/en-words/blob/main/hallucinate.md",
     "file_path": "hallucinate.md",
-    "date_added": "2026-08-26"
+    "date_added": "2026-08-28"
   },
   {
     "owner": "hallucinatemd",
