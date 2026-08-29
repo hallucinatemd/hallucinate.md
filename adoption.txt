@@ -1,5 +1,5 @@
-count: 16
-yesterday: 2026-08-27
+count: 7
+yesterday: 2026-08-28
 new_yesterday: 1
 celebrate:
-- 14 inviti8/hvym-img-tools (0★)
+- 14 tnotesjs/en-words (8★)
