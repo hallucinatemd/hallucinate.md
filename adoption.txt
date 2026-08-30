@@ -1,5 +1,4 @@
 count: 7
-yesterday: 2026-08-28
-new_yesterday: 1
+yesterday: 2026-08-29
+new_yesterday: 0
 celebrate:
-- 14 tnotesjs/en-words (8★)
