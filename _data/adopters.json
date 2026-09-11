@@ -52,6 +52,19 @@
     "date_added": "2026-07-16"
   },
   {
+    "owner": "orionsheep",
+    "repo": "wordlink",
+    "full_name": "orionsheep/wordlink",
+    "description": "AI-powered vocabulary learning — a fine-tuned 1.5B model (SFT+DPO) that runs offline in your browser. Live: wordlink.lifeplayertribe.com",
+    "stars": 2,
+    "language": "TypeScript",
+    "avatar": "https://avatars.githubusercontent.com/u/71240450?v=4",
+    "url": "https://github.com/orionsheep/wordlink",
+    "file_url": "https://github.com/orionsheep/wordlink/blob/main/data/word_text_database/word_database/hallucinate.md",
+    "file_path": "data/word_text_database/word_database/hallucinate.md",
+    "date_added": "2026-09-11"
+  },
+  {
     "owner": "NeckBeardPrince",
     "repo": "howtfdoi",
     "full_name": "NeckBeardPrince/howtfdoi",
