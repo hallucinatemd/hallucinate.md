@@ -4,13 +4,26 @@
     "repo": "wordlink",
     "full_name": "orionsheep/wordlink",
     "description": "AI-powered vocabulary learning — a fine-tuned 1.5B model (SFT+DPO) that runs offline in your browser. Live: wordlink.lifeplayertribe.com",
-    "stars": 220,
+    "stars": 228,
     "language": "TypeScript",
     "avatar": "https://avatars.githubusercontent.com/u/71240450?v=4",
     "url": "https://github.com/orionsheep/wordlink",
     "file_url": "https://github.com/orionsheep/wordlink/blob/main/data/word_text_database/word_database/hallucinate.md",
     "file_path": "data/word_text_database/word_database/hallucinate.md",
     "date_added": "2026-10-25"
+  },
+  {
+    "owner": "zachleat",
+    "repo": "zachleat.com",
+    "full_name": "zachleat/zachleat.com",
+    "description": "zachleat.com is powered by Eleventy and WebC.",
+    "stars": 205,
+    "language": "JavaScript",
+    "avatar": "https://avatars.githubusercontent.com/u/39355?v=4",
+    "url": "https://github.com/zachleat/zachleat.com",
+    "file_url": "https://github.com/zachleat/zachleat.com/blob/main/_posts/hallucinate.md",
+    "file_path": "_posts/hallucinate.md",
+    "date_added": "2026-10-27"
   },
   {
     "owner": "inclusivenaming",
