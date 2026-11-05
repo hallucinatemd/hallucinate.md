@@ -1,9 +1,9 @@
 count: 18
-yesterday: 2026-11-03
+yesterday: 2026-11-04
 new_yesterday: 13
 celebrate:
-- 08 orionsheep/wordlink (274★)
-- 09 zachleat/zachleat.com (205★)
+- 08 orionsheep/wordlink (282★)
+- 09 zachleat/zachleat.com (204★)
 - 10 inclusivenaming/website (28★)
 - 11 tnotesjs/en-words (8★)
 - 12 jaeminSon/jaeminSon.github.io (1★)
